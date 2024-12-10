@@ -1,0 +1,11 @@
+#1 1 2 3 5 8 13 21 34 55
+def fibonachi (n):
+    if n == (1) or n == (2):
+        return 1
+    else:
+        return (fibonachi(n-1) + fibonachi (n-2))
+    
+# mencari nilai fibonachi
+a= int(input("masukkan nilai fibonachi :"))
+hasil_fibonachi = fibonachi (a)
+print(hasil_fibonachi)
